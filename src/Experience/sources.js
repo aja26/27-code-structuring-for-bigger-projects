@@ -9,7 +9,6 @@ export default[
             'textures/environmentMap/ny.jpg',
             'textures/environmentMap/pz.jpg',
             'textures/environmentMap/nz.jpg',
-
         ]
     },
     {
@@ -27,5 +26,4 @@ export default[
         type: 'gltfModel',
         path: 'models/Fox/glTF/Fox.gltf'
     }
-    
 ]
