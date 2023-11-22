@@ -26,7 +26,6 @@ export default class Fox{
         this.scene.add(this.model)
         this.time = this.experience.time
 
-
         this.model.traverse(child => {
            if(child instanceof THREE.Mesh){
                 child.castShadow = true
@@ -68,7 +67,6 @@ export default class Fox{
             this.debugFolder.add(debugObject, 'playWalking')
             this.debugFolder.add(debugObject, 'playRunning')
         }
-
     }
 
     update(){
