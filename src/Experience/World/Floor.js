@@ -1,7 +1,6 @@
 import Experience from "../experience";
 import * as THREE from 'three';
 
-
 export default class Floor{
     constructor(){
         this.experience = new Experience();
