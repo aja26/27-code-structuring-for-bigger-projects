@@ -4,13 +4,11 @@ import Environment from "./Environment.js";
 import Floor from './Floor.js';
 import Fox from './Fox.js';
 
-
 export default class World{
     constructor(){
         this.experience = new Experience();
         this.scene = this.experience.scene
         this.resources = this.experience.resources
-       
 
         // Wait for resources
         this.resources.on('ready', () => {
@@ -20,8 +18,5 @@ export default class World{
             this.environment = new Environment();
             
         })
-
-       
-        
     }
 }
