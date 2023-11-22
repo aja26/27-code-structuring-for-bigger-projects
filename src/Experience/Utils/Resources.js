@@ -16,7 +16,6 @@ export default class Resources extends EventEmitter{
 
         this.setLoaders();
         this.startLoading();
-
     }
 
     setLoaders(){
@@ -57,7 +56,6 @@ export default class Resources extends EventEmitter{
     sourceLoaded(src, file){
 
         this.items[src.name] = file
-
         this.loaded++
 
         // finished loading assets
